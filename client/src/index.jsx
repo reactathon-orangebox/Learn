@@ -10,24 +10,26 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentPg: 'profile'
+      currentPg: 'room'
     }
   }
 
   switchViews() {
     var currentPg = this.state.currentPg;
 
-    if (currentPg = 'profile') {
-      return <Profile />
+    console.log(currentPg);
+
+    if (currentPg === 'profile') {
+      return <Profile />;
     } else if (currentPg === 'room') {
-      return <Room />
+      return <Room />;
     }
   }
 
   render () {
     return (
       <div>
-        { this.switchViews() }
+        {this.switchViews()}
       </div>
     )
   }

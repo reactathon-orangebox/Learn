@@ -8,7 +8,7 @@ class Room extends React.Component {
   render() {
     return (
       <div>
-        Hello Room!
+        Hello Room!!! This is me!
         {/* <NavBar /> When built */}
       </div>
     )
