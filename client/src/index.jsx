@@ -14,22 +14,20 @@ class App extends React.Component {
     }
   }
 
-  switchViews(current) {
-    if (current === 'profile') {
-      return (
-          <div >
-            <Profile />
-          </div>
-      )
+  switchViews() {
+    var currentPg = this.state.currentPg;
+
+    if (currentPg = 'profile') {
+      return <Profile />
+    } else if (currentPg === 'room') {
+      return <Room />
     }
   }
 
   render () {
     return (
       <div>
-        {
-          this.switchViews(this.state.currentPg)
-        }
+        { this.switchViews() }
       </div>
     )
   }
