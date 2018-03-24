@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 import Navbar from './components/Navbar.jsx';
 import Profile from './components/profile_page/profile.jsx';
+import Room from './components/classroom/Room.jsx';
 
 
 class App extends React.Component {
