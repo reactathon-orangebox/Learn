@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../navbar/Navbar.jsx'
 
 class Room extends React.Component {
   constructor(props) {
@@ -8,8 +9,7 @@ class Room extends React.Component {
   render() {
     return (
       <div>
-        Hello Room!!! This is me!
-        {/* <NavBar /> When built */}
+        <Navbar />
       </div>
     )
   }

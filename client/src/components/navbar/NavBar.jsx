@@ -5,10 +5,17 @@ class Navbar extends React.Component {
 
   constructor(props) {
     super(props);
+
+    // this.onClick = this.onClick.bind(this);
   }
+
+  // onClick(){
+
+  // }
 
   render () {
     return (
+
       <div>
 
         <nav className="navbar navbar-expand-md navbar-light bg-faded shadowBorder">
@@ -43,6 +50,7 @@ class Navbar extends React.Component {
                       </a>
 
                       <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                          
                           <a className="dropdown-item" href="#">Profile</a>
                           <a className="dropdown-item" href="#">Sign Out</a>
                       </div>  
